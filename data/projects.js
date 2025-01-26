@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 'youtube-clone',
-    thumbnail: '/images/projects/youtube-logo.avif',
+    thumbnail: 'images/projects/youtube-logo.avif',
     title: 'YouTube Clone',
     description: 'Build YouTube.com clone from a beginner to a professional level. Learned to develop complex websites.',
     techStack: 'HTML5, CSS3 and Git',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     id: 'calculator-app',
-    thumbnail: '/images/projects/calculator-app-logo.jpg',
+    thumbnail: 'images/projects/calculator-app-logo.jpg',
     title: 'Calculator App',
     description: 'This is a basic web-based calculator application which supports basic arithmetic operations and maintains calculation state using localStorage for persistence across page reloads.',
     techStack: 'HTML5, CSS3, JavaScript(ES6+) and Git',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     id: 'rock-paper-scissors-app',
-    thumbnail: '/images/projects/rock-paper-scissors-logo.jpg',
+    thumbnail: 'images/projects/rock-paper-scissors-logo.jpg',
     title: 'Rock Paper Scissors Game',
     description: 'A modern, dark-themed Rock Paper Scissors web game offering both mouse and keyboard controls, featuring persistent score tracking, emoji-based move visualization, and an autoplay mode with reset capabilities.',
     techStack: 'HTML5, CSS3, JavaScript(ES6+) and Git',

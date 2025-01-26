@@ -1,7 +1,7 @@
 const headerHTML = `
   <div class="left-section">
     <a href="/index.html" class="home-link">
-      <img class="logo-image" src="../images/logo.png" alt="">
+      <img class="logo-image" src="images/logo.png" alt="">
       tanaylakhotiya.dev
     </a>
     <a href="projects.html" class="header-link js-projects-link">Projects</a>

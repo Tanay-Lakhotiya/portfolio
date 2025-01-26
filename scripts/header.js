@@ -4,7 +4,7 @@ const headerHTML = `
       <img class="logo-image" src="../images/logo.png" alt="">
       tanaylakhotiya.dev
     </a>
-    <a href="/pages/projects.html" class="header-link js-projects-link">Projects</a>
+    <a href="projects.html" class="header-link js-projects-link">Projects</a>
     <a href="" class="header-link">Experience</a>
   </div>
   <div class="right-section">

@@ -39,5 +39,14 @@ export const projects = [
       Intervals (setInterval, clearInterval)
       Boolean Logic and Comparison Operators
     */
+  },
+  {
+    id: 'todo-list-app',
+    thumbnail: 'images/projects/todo-list-app-logo.jpg',
+    title: 'Todo List App',
+    description: 'This Todo List web application is a task management app that combines local storage persistence with an easy user interface. It enables users to efficiently manage their tasks by adding todo items with names and due dates, while offering quick deletion capabilities and keyboard support for enhanced user experience.',
+    techStack: 'HTML5, CSS3, JavaScript(ES6+) and Git',
+    features: '9 Features',
+    timePeriod: '2 hours'
   }
 ];

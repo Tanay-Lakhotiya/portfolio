@@ -110,6 +110,8 @@ document.querySelectorAll('.js-view-project-button')
         window.location.href = 'https://tanay-lakhotiya.github.io/calculator-app';
       } else if (projectName === 'rock-paper-scissors-app') {
         window.location.href = 'https://tanay-lakhotiya.github.io/rock-paper-scissors';
+      } else if (projectName === 'todo-list-app') {
+        window.location.href = 'https://tanay-lakhotiya.github.io/todo-list-app';
       }
     });
   });
@@ -124,6 +126,8 @@ document.querySelectorAll('.js-view-code-button')
       window.location.href = 'https://github.com/Tanay-Lakhotiya/calculator-app';
     } else if (projectName === 'rock-paper-scissors-app') {
       window.location.href = 'https://github.com/Tanay-Lakhotiya/rock-paper-scissors';
+    } else if (projectName === 'todo-list-app') {
+      window.location.href = 'https://github.com/Tanay-Lakhotiya/todo-list-app';
     }
   });
 });

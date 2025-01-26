@@ -1,3 +1,7 @@
+body {
+  margin-bottom: 50px;
+}
+
 .projects-conatiner {
   display: grid;
   grid-template-columns: 400px 400px 400px;

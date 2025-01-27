@@ -10,14 +10,17 @@ const headerHTML = `
   <div class="right-section">
     <a href="#" class="header-link js-resume-link">Resume</a>
     <a href="" class="header-link">About</a>
-    <a href="" class="header-link">Contact</a>
+    <a href="contact.html" class="header-link js-contact-link">Contact</a>
   </div>
 `;
 
 document.querySelector('.header').innerHTML = headerHTML;
 
+
 if (document.title.includes('Projects')) {
   document.querySelector('.js-projects-link').classList.add('underline-visible');
+} else if (document.title.includes('Contact')) {
+  document.querySelector('.js-contact-link').classList.add('underline-visible');
 }
 
 document.querySelector('.js-resume-link').addEventListener('click', (event) => {

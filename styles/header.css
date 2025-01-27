@@ -41,3 +41,51 @@
   text-underline-offset: 10px;
   text-decoration-color: rgb(25, 135, 84);
 }
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/* For tablets and iPads (landscape) */
+@media screen and (max-width: 768px) {
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .left-section,
+  .right-section {
+    column-gap: 20px;
+  }
+
+  .home-link {
+    font-size: 16px;
+  }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    padding: 16px 15px;
+  }
+
+  .left-section,
+  .right-section {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  .home-link {
+    margin-bottom: 5px;
+  }
+
+  .header-link {
+    font-size: 14px;
+  }
+}

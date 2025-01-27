@@ -41,3 +41,76 @@
   background-color: rgb(18, 118, 71);
   cursor: pointer;
 }
+
+/* For tablets and iPads */
+@media screen and (max-width: 768px) {
+  .main {
+    margin-left: 40px;
+    margin-top: 120px;
+    margin-right: 40px;
+  }
+
+  .heading {
+    font-size: 28px;
+  }
+
+  .author-name {
+    font-size: 20px;
+  }
+
+  .wave-image {
+    height: 25px;
+  }
+
+  .author-tagline {
+    font-size: 16px;
+  }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 480px) {
+  .main {
+    margin: 100px 20px 0 20px;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .author-name {
+    font-size: 18px;
+    justify-content: center;
+  }
+
+  .wave-image {
+    height: 20px;
+  }
+
+  .author-tagline {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .get-started-button {
+    padding: 10px 22px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* For very small devices */
+@media screen and (max-width: 320px) {
+  .main {
+    margin-top: 80px;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .author-name {
+    font-size: 16px;
+  }
+}

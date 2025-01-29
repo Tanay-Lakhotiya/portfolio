@@ -9,7 +9,7 @@ const headerHTML = `
   </div>
   <div class="right-section">
     <a href="#" class="header-link js-resume-link">Resume</a>
-    <a href="" class="header-link">About</a>
+    <a href="about.html" class="header-link js-about-link">About</a>
     <a href="contact.html" class="header-link js-contact-link">Contact</a>
   </div>
 `;
@@ -21,6 +21,8 @@ if (document.title.includes('Projects')) {
   document.querySelector('.js-projects-link').classList.add('underline-visible');
 } else if (document.title.includes('Contact')) {
   document.querySelector('.js-contact-link').classList.add('underline-visible');
+} else if (document.title.includes('About')) {
+  document.querySelector('.js-about-link').classList.add('underline-visible');
 }
 
 document.querySelector('.js-resume-link').addEventListener('click', (event) => {
